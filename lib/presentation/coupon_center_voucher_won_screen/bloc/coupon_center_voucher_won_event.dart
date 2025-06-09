@@ -1,0 +1,16 @@
+part of 'coupon_center_voucher_won_bloc.dart';
+
+/// Abstract class for all events that can be dispatched from the
+///CouponCenterVoucherWon widget.
+///
+/// Events must be immutable and implement the [Equatable] interface.
+class CouponCenterVoucherWonEvent extends Equatable {
+  @override
+  List<Object?> get props => [];
+}
+
+/// Event that is dispatched when the CouponCenterVoucherWon widget is first created.
+class CouponCenterVoucherWonInitialEvent extends CouponCenterVoucherWonEvent {
+  @override
+  List<Object?> get props => [];
+}

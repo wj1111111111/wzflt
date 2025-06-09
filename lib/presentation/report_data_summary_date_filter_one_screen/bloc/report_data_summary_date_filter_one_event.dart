@@ -1,0 +1,17 @@
+part of 'report_data_summary_date_filter_one_bloc.dart';
+
+/// Abstract class for all events that can be dispatched from the
+///ReportDataSummaryDateFilterOne widget.
+///
+/// Events must be immutable and implement the [Equatable] interface.
+class ReportDataSummaryDateFilterOneEvent extends Equatable {
+  @override
+  List<Object?> get props => [];
+}
+
+/// Event that is dispatched when the ReportDataSummaryDateFilterOne widget is first created.
+class ReportDataSummaryDateFilterOneInitialEvent
+    extends ReportDataSummaryDateFilterOneEvent {
+  @override
+  List<Object?> get props => [];
+}
